@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Hot Stone</title>
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <div id="name">
+        <h1>Hot Stone</h1>
+      </div>
+      <div id="logo">
+        <img src="img/hot_stone.png">
+      </div>
+    </header>
+
+    <main>
+      <div id="page-name">
+        <h2>Our Menu</h2>
+      </div>
+
+      <div id="appetizers">
+        <h3>Appetizers</h3>
+        <ul>
+          <li>
+            <h4>Item Name <span class="price">$4.00</span></h4>
+            <p>Description goes here</p>
+          </li>
+          <li>
+            <h4>Item Name <span class="price">$4.00</span></h4>
+            <p>Description goes here</p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="soup_salad">
+        <h3>Soups and Salads</h3>
+        <ul>
+          <li>
+            <h4>Item Name <span class="price">$4.00</span></h4>
+            <p>Description goes here</p>
+          </li>
+          <li>
+            <h4>Item Name <span class="price">$4.00</span></h4>
+            <p>Description goes here</p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="entrees">
+        <h3>Entrees</h3>
+        <ul>
+          <li>
+            <h4>Item Name <span class="price">$4.00</span></h4>
+            <p>Description goes here</p>
+          </li>
+          <li>
+            <h4>Item Name <span class="price">$4.00</span></h4>
+            <p>Description goes here</p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="deserts">
+        <h3>Deserts</h3>
+        <ul>
+          <li>
+            <h4>Item Name <span class="price">$4.00</span></h4>
+            <p>Description goes here</p>
+          </li>
+          <li>
+            <h4>Item Name <span class="price">$4.00</span></h4>
+          </li>
+        </ul>
+      </div>
+
+    </main>
+
+    <footer>
+      <div id="contact">
+        <h2>Contact</h2>
+        <p>Contact Us: 910-3872-293<br></br>
+        <p>Email Us:hotstone@gmail.com</div>
+      <div id="social media">
+        <h2>Social Media</h2>
+        <br></br>
+        <img src="img/insta_logo.png" alt="Instagram Logo">
+        <img src="img/facebook_logo.jpg" alt="Facebook Logo">
+      </div>
+      <div id="credit">
+        <h2>Credit</h2>
+        <p>Made By: Valentina Z.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <!-- owl carousel stuff -->
+  <script src="js/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+          dots: true,
+          items: 1,
+          loop: true,
+          margin: 10,
+          nav: true
+      })
+    });
+  </script>
+
+
+</body>
+</html>
